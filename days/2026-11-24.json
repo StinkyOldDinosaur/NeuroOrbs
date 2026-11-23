@@ -1,0 +1,23 @@
+[
+  {
+    "type": "text",
+    "prompt": "Name 6 types of glial cells.",
+    "answers": [
+      ["astrocyte", "astrocytes"],
+      ["oligodendrocyte", "oligodendrocytes"],
+      ["microglia", "microglial cell"],
+      ["schwann cell", "schwann cells"],
+      ["ependymal cell", "ependymal cells"],
+      ["satellite cell", "satellite cells"]
+    ]
+  },
+  {
+    "type": "match",
+    "prompt": "Match the cell to its job.",
+    "pairs": [
+      ["Neuron", "Sends signals"],
+      ["Oligodendrocyte", "Makes myelin in the CNS"],
+      ["Microglia", "Immune defense"]
+    ]
+  }
+]
