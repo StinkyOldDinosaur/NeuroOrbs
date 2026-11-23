@@ -1,0 +1,16 @@
+body { font-family: Arial, sans-serif; max-width: 700px; margin: 0 auto; padding: 16px; background: #f4f1fb; }
+h1 { color: #5b3fa0; }
+.riddle { background: white; border-radius: 10px; padding: 16px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+.prompt { font-weight: bold; margin-top: 0; }
+.info { font-size: 1.1em; }
+.nohearts { color: #b00020; font-size: 0.85em; }
+button { padding: 8px 12px; margin: 4px; border: 1px solid #5b3fa0; border-radius: 6px; background: white; cursor: pointer; }
+button:hover { background: #ece6fa; }
+button.selected { background: #cbb8f5; }
+button.matched { background: #b7e4c7; border-color: #2d6a4f; }
+input { padding: 8px; width: 60%; }
+.match { display: flex; gap: 24px; }
+.col { display: flex; flex-direction: column; }
+.found { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.found li { background: #b7e4c7; border-radius: 12px; padding: 4px 10px; }
+.feedback { color: #444; min-height: 1.2em; }
