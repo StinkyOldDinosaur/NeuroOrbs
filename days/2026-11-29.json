@@ -1,23 +1,50 @@
 [
   {
     "type": "text",
-    "prompt": "Name 6 types of glial cells.",
+    "prompt": "Nenne 3 Validierungsprobleme, die in der Vorlesung besprochen werden.",
     "answers": [
-      ["astrocyte", "astrocytes"],
-      ["oligodendrocyte", "oligodendrocytes"],
-      ["microglia", "microglial cell"],
-      ["schwann cell", "schwann cells"],
-      ["ependymal cell", "ependymal cells"],
-      ["satellite cell", "satellite cells"]
+      ["Zirkelschluss", "Zirkelschlüsse"],
+      ["Post-hoc-Erklärungen", "Post-hoc-Erklärung", "Post hoc", "Posthoc"],
+      ["Korrelation ist nicht Kausalität", "Korrelation ungleich Kausalität", "Korrelation und Kausalität"]
+    ]
+  },
+  {
+    "type": "text",
+    "prompt": "Nenne 6 Nebengütekriterien.",
+    "needed": 6,
+    "answers": [
+      ["Normierung", "Normen"],
+      ["Vergleichbarkeit"],
+      ["Ökonomie"],
+      ["Zumutbarkeit"],
+      ["Fairness"],
+      ["Nicht-Verfälschbarkeit", "Nichtverfälschbarkeit", "Verfälschbarkeit"],
+      ["Nutzen", "Nützlichkeit"]
     ]
   },
   {
     "type": "match",
-    "prompt": "Match the cell to its job.",
+    "prompt": "Ordne das Nebengütekriterium der passenden Beschreibung zu.",
     "pairs": [
-      ["Neuron", "Sends signals"],
-      ["Oligodendrocyte", "Makes myelin in the CNS"],
-      ["Microglia", "Immune defense"]
+      ["Normierung", "Bezugssystem zur vergleichenden Einordnung, aktuell, repräsentativ und ausreichend groß"],
+      ["Vergleichbarkeit", "Parallelformen oder Verfahren mit gleichem Gültigkeitsbereich sind verfügbar"],
+      ["Ökonomie", "Kurz, einfach, schnell auswertbar, günstiges Kosten-Nutzen-Verhältnis"],
+      ["Zumutbarkeit", "Zeitliche, psychische und körperliche Schonung der untersuchten Personen"],
+      ["Fairness", "Keine systematische Benachteiligung aufgrund einer test-irrelevanten Eigenschaft"],
+      ["Nicht-Verfälschbarkeit", "Testleistung kann nicht willentlich zum eigenen Vorteil beeinflusst werden"]
+    ]
+  },
+  {
+    "type": "text",
+    "prompt": "Nenne 3 der 6 Bestandteile, die ein vollständiges Testmanual enthält.",
+    "needed": 3,
+    "answers": [
+      ["Zielsetzung", "Messanspruch", "Motivation"],
+      ["Theoretischer Hintergrund", "Theorie", "Literatur"],
+      ["Testmaterial", "Material", "Durchführung"],
+      ["Gütekriterien", "Hauptgütekriterien"],
+      ["Auswertung", "Interpretation", "Auswertung und Interpretation"],
+      ["Normen", "Normierung"]
     ]
   }
 ]
