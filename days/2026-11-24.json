@@ -1,23 +1,50 @@
 [
   {
     "type": "text",
-    "prompt": "Name 6 types of glial cells.",
+    "prompt": "Nenne 3 der 5 Ebenen der Normenpyramide.",
+    "needed": 3,
     "answers": [
-      ["astrocyte", "astrocytes"],
-      ["oligodendrocyte", "oligodendrocytes"],
-      ["microglia", "microglial cell"],
-      ["schwann cell", "schwann cells"],
-      ["ependymal cell", "ependymal cells"],
-      ["satellite cell", "satellite cells"]
+      ["Recht der Europäischen Gemeinschaft", "EU-Recht", "Europarecht", "Europäisches Recht"],
+      ["Grundgesetz", "GG"],
+      ["Einfache Gesetze", "Gesetze"],
+      ["Rechtsverordnungen", "Rechtsverordnung", "Verordnungen"],
+      ["Weitere Rechtsnormen", "Rechtsnormen", "Satzungen", "Richtlinien"]
     ]
   },
   {
     "type": "match",
-    "prompt": "Match the cell to its job.",
+    "prompt": "Ordne die Rechtsnorm ihrem Inhalt zu.",
     "pairs": [
-      ["Neuron", "Sends signals"],
-      ["Oligodendrocyte", "Makes myelin in the CNS"],
-      ["Microglia", "Immune defense"]
+      ["EMRK Artikel 8", "Achtung des Privat- und Familienlebens"],
+      ["DSGVO", "Schutz personenbezogener Daten, Regeln zu Profiling"],
+      ["Grundgesetz Artikel 1", "Würde des Menschen, keine herabsetzenden Formulierungen in Gutachten"],
+      ["Grundgesetz Artikel 2 Absatz 1", "Informationelle Selbstbestimmung"],
+      ["StGB § 203", "Verletzung von Privatgeheimnissen (Schweigepflicht)"],
+      ["AGG", "Schutz vor Benachteiligung"]
+    ]
+  },
+  {
+    "type": "text",
+    "prompt": "Nenne 6 Merkmale, aufgrund derer laut AGG-Ziel nicht benachteiligt werden darf.",
+    "answers": [
+      ["Rasse", "Ethnische Herkunft", "Herkunft"],
+      ["Geschlecht"],
+      ["Religion", "Weltanschauung", "Religion oder Weltanschauung"],
+      ["Behinderung"],
+      ["Alter"],
+      ["Sexuelle Identität"]
+    ]
+  },
+  {
+    "type": "match",
+    "prompt": "Ordne den Begriff der passenden Aussage zu.",
+    "pairs": [
+      ["Personalfragebogen (§ 94 BetrVG)", "Bedarf der Zustimmung des Betriebsrats"],
+      ["Auswahlrichtlinien (§ 95 BetrVG)", "Betriebsrat hat Mitspracherecht bei den Anforderungen"],
+      ["DIN 33430", "Prozessnorm für berufsbezogene Eignungsdiagnostik"],
+      ["DGPs und BDP", "Herausgeber der berufsethischen Richtlinien"],
+      ["Offenbaren", "Identifizierung der betroffenen Person ist möglich"],
+      ["Profiling", "Automatisierte Verarbeitung zur Bewertung persönlicher Aspekte"]
     ]
   }
 ]
