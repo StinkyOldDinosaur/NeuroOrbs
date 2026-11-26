@@ -1,23 +1,46 @@
 [
   {
     "type": "text",
-    "prompt": "Name 6 types of glial cells.",
+    "prompt": "Nenne die 3 Ansätze zur Untersuchung der Validität, die in der Vorlesung genannt werden.",
     "answers": [
-      ["astrocyte", "astrocytes"],
-      ["oligodendrocyte", "oligodendrocytes"],
-      ["microglia", "microglial cell"],
-      ["schwann cell", "schwann cells"],
-      ["ependymal cell", "ependymal cells"],
-      ["satellite cell", "satellite cells"]
+      ["Inhaltsvalidität"],
+      ["Konstruktvalidität"],
+      ["Kriteriumsvalidität"]
     ]
   },
   {
     "type": "match",
-    "prompt": "Match the cell to its job.",
+    "prompt": "Ordne den Validitätsbegriff der passenden Beschreibung zu.",
     "pairs": [
-      ["Neuron", "Sends signals"],
-      ["Oligodendrocyte", "Makes myelin in the CNS"],
-      ["Microglia", "Immune defense"]
+      ["Inhaltsvalidität", "Items erfassen das Merkmal in seiner ganzen Breite repräsentativ"],
+      ["Konvergente Validität", "Erwartet werden hohe Korrelationen mit Indikatoren des gleichen Merkmals"],
+      ["Divergente Validität", "Erwartet werden niedrigere Korrelationen mit Indikatoren anderer Merkmale"],
+      ["Faktorielle Validität", "Erwartungsgemäße Faktorenstruktur des Tests"],
+      ["Interne Validität", "Variation der AV lässt sich eindeutig auf die UV zurückführen"],
+      ["Externe Validität", "Generalisierbarkeit über Personen und Situationen hinweg"]
+    ]
+  },
+  {
+    "type": "text",
+    "prompt": "Nenne 3 der 4 Perspektiven der Kriteriumsvalidität.",
+    "needed": 3,
+    "answers": [
+      ["Vorhersagevalidität", "Prädiktive Validität"],
+      ["Übereinstimmungsvalidität", "Konkurrente Validität"],
+      ["Retrospektive Validität", "Retrospektive"],
+      ["Inkrementelle Validität", "Inkrementelle"]
+    ]
+  },
+  {
+    "type": "match",
+    "prompt": "Ordne das Beispiel der passenden Validitätsart zu.",
+    "pairs": [
+      ["Intelligenztest und Abiturnote drei Jahre später", "Vorhersagevalidität"],
+      ["Konzentrationsleistung vor der Klausur und Klausurnote", "Übereinstimmungsvalidität"],
+      ["Intelligenzleistung im Studium und Abiturnoten", "Retrospektive Validität"],
+      ["Zusätzlicher Beitrag eines Verfahrens zur Vorhersage über andere Verfahren hinaus", "Inkrementelle Validität"],
+      ["Einstellungstest: höhere Werte bei Kirchengängerinnen als bei Nicht-Kirchengängerinnen", "Extremgruppenvergleich"],
+      ["Systematisierung der Erwartungen zu konvergenten und divergenten Zusammenhängen", "Multitrait-Multimethod-Methode"]
     ]
   }
 ]
