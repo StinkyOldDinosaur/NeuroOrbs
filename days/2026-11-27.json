@@ -1,23 +1,43 @@
 [
   {
     "type": "text",
-    "prompt": "Name 6 types of glial cells.",
+    "prompt": "Nenne die 3 Teilaspekte der Objektivität.",
     "answers": [
-      ["astrocyte", "astrocytes"],
-      ["oligodendrocyte", "oligodendrocytes"],
-      ["microglia", "microglial cell"],
-      ["schwann cell", "schwann cells"],
-      ["ependymal cell", "ependymal cells"],
-      ["satellite cell", "satellite cells"]
+      ["Durchführungsobjektivität", "Durchführung"],
+      ["Auswertungsobjektivität", "Auswertung"],
+      ["Interpretationsobjektivität", "Interpretation"]
+    ]
+  },
+  {
+    "type": "text",
+    "prompt": "Nenne 3 der 4 Hauptgütekriterien diagnostischer Verfahren.",
+    "needed": 3,
+    "answers": [
+      ["Objektivität"],
+      ["Skalierung"],
+      ["Reliabilität"],
+      ["Validität"]
     ]
   },
   {
     "type": "match",
-    "prompt": "Match the cell to its job.",
+    "prompt": "Ordne das Gütekriterium bzw. den Teilaspekt der passenden Beschreibung zu.",
     "pairs": [
-      ["Neuron", "Sends signals"],
-      ["Oligodendrocyte", "Makes myelin in the CNS"],
-      ["Microglia", "Immune defense"]
+      ["Durchführungsobjektivität", "Standardisierte Instruktion, Testsituation und Material"],
+      ["Auswertungsobjektivität", "Exakte Auswertungsregeln, Schablonen, computergestützte Auswertung"],
+      ["Interpretationsobjektivität", "Normstichprobe und Vorgaben zur Bedeutung der Ausprägungen"],
+      ["Skalierung", "Zuordnung der Messwerte auf Basis eines empirisch nachgewiesenen Testmodells"],
+      ["Reliabilität", "Messgenauigkeit: Anteil der systematischen Varianz an der Gesamtvarianz"],
+      ["Validität", "Misst das Verfahren wirklich das, was es zu messen beansprucht?"]
+    ]
+  },
+  {
+    "type": "text",
+    "prompt": "Nenne die 3 modellunabhängigen Methoden der Reliabilitätsschätzung, die in der Vorlesung genannt werden.",
+    "answers": [
+      ["Retest-Reliabilität", "Retest", "Test-Retest"],
+      ["Paralleltest-Reliabilität", "Paralleltest", "Parallelform"],
+      ["Split-Half-Reliabilität", "Split-Half", "Testhalbierung"]
     ]
   }
 ]
