@@ -1,23 +1,46 @@
 [
   {
     "type": "text",
-    "prompt": "Name 6 types of glial cells.",
+    "prompt": "In der Vorlesung gibt es 4 Herausforderungen auf der Metaebene. Nenne zu 3 davon je ein Stichwort.",
+    "needed": 3,
     "answers": [
-      ["astrocyte", "astrocytes"],
-      ["oligodendrocyte", "oligodendrocytes"],
-      ["microglia", "microglial cell"],
-      ["schwann cell", "schwann cells"],
-      ["ependymal cell", "ependymal cells"],
-      ["satellite cell", "satellite cells"]
+      ["Praktikabilität", "Methodenlehre", "Spannungsfeld"],
+      ["Kausalität", "Generalisierbarkeit"],
+      ["Fehlerhaftigkeit", "Messfehler", "Bias"],
+      ["Messen und Entscheiden", "Entscheiden", "Trennung von Messen und Entscheiden"]
     ]
   },
   {
     "type": "match",
-    "prompt": "Match the cell to its job.",
+    "prompt": "Ordne den Begriff der passenden Aussage zu.",
     "pairs": [
-      ["Neuron", "Sends signals"],
-      ["Oligodendrocyte", "Makes myelin in the CNS"],
-      ["Microglia", "Immune defense"]
+      ["Unsystematische Messfehler", "Bekannt aus der Testtheorie, oft statistisch kontrolliert"],
+      ["Systematischer Bias", "Besonders bei Beobachtung und Interviews relevant"],
+      ["Dissimulation", "Verfälschung nach unten bei Leistungstests"],
+      ["Persönlichkeitsfragebogen", "Gezielte Verfälschung ist möglich"],
+      ["Projektive Verfahren", "Mehrdeutiges Stimulusmaterial, z. B. Bilder"],
+      ["Computergestützte Verfahren", "Ermöglichen adaptives Testen"]
+    ]
+  },
+  {
+    "type": "text",
+    "prompt": "Nenne die 3 Entscheidungsmodelle aus der Assessment-Matrix.",
+    "answers": [
+      ["Konjunktiv", "Konjunktives Modell"],
+      ["Disjunktiv", "Disjunktives Modell"],
+      ["Kompensatorisch", "Kompensatorisches Modell"]
+    ]
+  },
+  {
+    "type": "match",
+    "prompt": "Ordne den Begriff der passenden Beschreibung zu.",
+    "pairs": [
+      ["Knowledge (KSAs+P)", "Berufsbezogenes Wissen und Fachkenntnisse"],
+      ["Skills (KSAs+P)", "Aufgabenwissen und -können, z. B. Präsentationsfertigkeiten"],
+      ["Abilities (KSAs+P)", "Allgemeine und spezielle kognitive Fähigkeiten"],
+      ["Personality (KSAs+P)", "Relativ stabiles Verhaltenskorrelat, z. B. Big Five"],
+      ["Merkmalsträger", "Einzelpersonen, Gruppen, Institutionen, Situationen, Gegenstände"],
+      ["Befunddominanz", "Ziel bei widersprüchlichen Ergebnissen verschiedener Verfahren"]
     ]
   }
 ]
