@@ -1,23 +1,44 @@
 [
   {
     "type": "text",
-    "prompt": "Name 6 types of glial cells.",
+    "prompt": "Nenne die 3 groben Arten psychometrischer Tests.",
     "answers": [
-      ["astrocyte", "astrocytes"],
-      ["oligodendrocyte", "oligodendrocytes"],
-      ["microglia", "microglial cell"],
-      ["schwann cell", "schwann cells"],
-      ["ependymal cell", "ependymal cells"],
-      ["satellite cell", "satellite cells"]
+      ["Leistungstest", "Leistungstests"],
+      ["Persönlichkeitsfragebogen", "Persönlichkeitstest", "Persönlichkeitstests", "Fragebogen"],
+      ["Projektiver Test", "Projektive Tests", "Projektive Verfahren", "Projektiv", "Projektive"]
     ]
   },
   {
     "type": "match",
-    "prompt": "Match the cell to its job.",
+    "prompt": "Ordne den Testbegriff bzw. das Testbeispiel zu.",
     "pairs": [
-      ["Neuron", "Sends signals"],
-      ["Oligodendrocyte", "Makes myelin in the CNS"],
-      ["Microglia", "Immune defense"]
+      ["Speedtest", "Einfache Aufgaben, Differenzierung über begrenzte Bearbeitungszeit"],
+      ["Powertest", "Schwierige Aufgaben, theoretisch nicht von allen lösbar"],
+      ["d2-Test", "Aufmerksamkeits-Belastungs-Test"],
+      ["Advanced Progressive Matrices", "Beispiel für einen Powertest (Intelligenz)"],
+      ["NEO-PI-R", "Persönlichkeitsfragebogen (Selbstauskunft)"],
+      ["Picture-Story-Exercise", "Projektives Verfahren mit mehrdeutigen Bildern"]
+    ]
+  },
+  {
+    "type": "text",
+    "prompt": "Nenne die 3 Schritte der Planungsphase des diagnostischen Prozesses.",
+    "answers": [
+      ["Auftragserhalt", "Fragestellung", "Vereinbarung der Fragestellung"],
+      ["Hypothesenformulierung", "Hypothesen", "Hypothesen ableiten"],
+      ["Operationalisierung", "Auswahl der Methoden"]
+    ]
+  },
+  {
+    "type": "match",
+    "prompt": "Ordne den Begriff der passenden Beschreibung zu.",
+    "pairs": [
+      ["Statusdiagnostik", "Feststellung des Ist-Zustands (Querschnitt)"],
+      ["Erfolgskontrolle", "Einmalige Überprüfung der Zielerreichung nach Beendigung"],
+      ["Verlaufskontrolle", "Begleitende, kontinuierliche Erfassung von Veränderungen"],
+      ["Personenselektion", "Welche Person passt auf die gegebene Bedingung?"],
+      ["Bedingungsselektion", "Welche Bedingung passt auf die gegebene Person?"],
+      ["Personenmodifikation", "Was kann die Person tun, um zu passen?"]
     ]
   }
 ]
