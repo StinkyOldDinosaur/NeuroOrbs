@@ -1,23 +1,48 @@
 [
   {
     "type": "text",
-    "prompt": "Name 6 types of glial cells.",
+    "prompt": "Nenne 3 der 6 Dimensionen diagnostischer Entscheidungen nach Cronbach und Gleser (1965).",
+    "needed": 3,
     "answers": [
-      ["astrocyte", "astrocytes"],
-      ["oligodendrocyte", "oligodendrocytes"],
-      ["microglia", "microglial cell"],
-      ["schwann cell", "schwann cells"],
-      ["ependymal cell", "ependymal cells"],
-      ["satellite cell", "satellite cells"]
+      ["Nutzen der Entscheidung", "Nutzen"],
+      ["Annahmequote"],
+      ["Möglichkeit von Ablehnungen", "Ablehnungen"],
+      ["Informationsdimensionen", "Informationsdimension", "univariat oder multivariat"],
+      ["Behandlungen", "singulär oder multipel"],
+      ["Entscheidungen", "terminal oder investigatorisch", "terminal", "investigatorisch"]
     ]
   },
   {
     "type": "match",
-    "prompt": "Match the cell to its job.",
+    "prompt": "Ordne das Beispiel der passenden Entscheidungsstrategie zu.",
     "pairs": [
-      ["Neuron", "Sends signals"],
-      ["Oligodendrocyte", "Makes myelin in the CNS"],
-      ["Microglia", "Immune defense"]
+      ["Single Screen", "Schriftlicher Sprachtest zur Vergabe eines Sprachniveaus"],
+      ["Nichtsequentielle Untersuchungsbatterie", "Offener Assessment-Tag für alle Personen"],
+      ["Vorauswahl-Strategie (Pre-reject)", "Studienstiftung: nur herausragende Kandidatinnen werden nominiert und dann getestet"],
+      ["Vorentscheidungs-Strategie (Pre-accept)", "Medizinstudium: Kontingent über Abiturnote, restliche Plätze über weitere Kriterien"],
+      ["Vollständig sequentielle Strategie", "Ohne Abschluss nicht eingeladen, mit Mindestnote eingestellt, Rest im Assessment-Center"],
+      ["Terminale Entscheidung", "Endgültige Entscheidung ohne weitere Untersuchungen, z. B. Einstellung"]
+    ]
+  },
+  {
+    "type": "text",
+    "prompt": "Nenne die 3 mehrstufigen Entscheidungsstrategien.",
+    "answers": [
+      ["Vorauswahl-Strategie", "Vorauswahlstrategie", "Pre-reject", "Pre-reject-Strategie"],
+      ["Vorentscheidungs-Strategie", "Vorentscheidungsstrategie", "Pre-accept", "Pre-accept-Strategie"],
+      ["Vollständig sequentielle Strategie", "Vollständig sequentiell", "Sequentielle Strategie"]
+    ]
+  },
+  {
+    "type": "match",
+    "prompt": "Ordne die Aussage dem Entscheidungsmodell zu.",
+    "pairs": [
+      ["Disjunktives Modell", "Oder-Strategie: eine erfüllte Mindestanforderung genügt"],
+      ["Konjunktives Modell", "Und-Strategie: alle Mindestanforderungen müssen erfüllt sein"],
+      ["Additives / kompensatorisches Modell", "Merkmale können sich gegenseitig ausgleichen"],
+      ["Mangelnde Sehfähigkeit bei angehenden Pilotinnen", "Kann nicht ausgeglichen werden (konjunktiv)"],
+      ["Studium in Psychologie oder BWL für die Personalabteilung", "Einer von zwei Wegen genügt (disjunktiv)"],
+      ["Lineares Regressionsmodell", "Gewichteter Gesamtwert auf Basis empirischer Daten"]
     ]
   }
 ]
