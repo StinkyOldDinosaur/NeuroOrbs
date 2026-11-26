@@ -1,23 +1,46 @@
 [
   {
     "type": "text",
-    "prompt": "Name 6 types of glial cells.",
+    "prompt": "Nenne 3 der 4 Methoden der Diagnostik, die in der Vorlesung aufgelistet werden.",
+    "needed": 3,
     "answers": [
-      ["astrocyte", "astrocytes"],
-      ["oligodendrocyte", "oligodendrocytes"],
-      ["microglia", "microglial cell"],
-      ["schwann cell", "schwann cells"],
-      ["ependymal cell", "ependymal cells"],
-      ["satellite cell", "satellite cells"]
+      ["Interview", "Interviews"],
+      ["Verhaltensbeobachtung", "Verhaltensbeobachtungen", "Beobachtung"],
+      ["Zeugnis", "Zeugnisse"],
+      ["Psychometrischer Test", "Psychometrische Tests", "Test", "Tests"]
     ]
   },
   {
     "type": "match",
-    "prompt": "Match the cell to its job.",
+    "prompt": "Ordne das Ziel bzw. die Strategie der Diagnostik zu.",
     "pairs": [
-      ["Neuron", "Sends signals"],
-      ["Oligodendrocyte", "Makes myelin in the CNS"],
-      ["Microglia", "Immune defense"]
+      ["Beschreibung", "Erfassen des aktuellen Zustands (Verhalten, Eigenschaften, Situation)"],
+      ["Erklärung", "Ermittlung plausibler Ursachen für beobachtete Phänomene"],
+      ["Vorhersage", "Auftretenswahrscheinlichkeit zukünftiger Phänomene"],
+      ["Klassifikation", "Spezialfall der Beschreibung, z. B. mit Klassifikationssystemen"],
+      ["Selektionsstrategie", "Personen oder Bedingungen sind gegeben, Veränderung nicht beabsichtigt"],
+      ["Modifikationsstrategie", "Veränderung von Personen oder Bedingungen ist das Ziel"]
+    ]
+  },
+  {
+    "type": "text",
+    "prompt": "Nenne die 3 Phasen des diagnostischen Prozesses.",
+    "answers": [
+      ["Planung", "Planungsphase"],
+      ["Durchführung", "Durchführungsphase"],
+      ["Integration", "Integrationsphase"]
+    ]
+  },
+  {
+    "type": "match",
+    "prompt": "Ordne die Variablengruppe (Westhoff & Kluck, 2008) dem Beispiel zu.",
+    "pairs": [
+      ["Umgebungsvariablen", "Finanzielle Situation, Wohnsituation"],
+      ["Organismusvariablen", "Körperliche Eigenschaften, z. B. Alter"],
+      ["Kognitive Variablen", "Allgemeine Intelligenz, Kreativität"],
+      ["Emotionale Variablen", "Emotionale Stabilität, Umgang mit Belastungen"],
+      ["Motivationale Variablen", "Motive, Interessen, Werte, Ziele"],
+      ["Soziale Variablen", "Normen und Einstellungen"]
     ]
   }
 ]
